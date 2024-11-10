@@ -1,0 +1,219 @@
+/* body { */
+    /* font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.food-items {
+    display: flex;
+    gap: 1rem;
+}
+
+.food-item {
+    flex: 1;
+}
+
+.food-item img {
+    width: 100%;
+    height: auto;
+}
+
+.video-container {
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Basic styling for the body and header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:orangered;
+}
+
+header {
+    background-color: #44f010;
+    color: rgb(184, 17, 206);
+    padding: 1rem;
+    text-align: center;
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(12, 32, 207);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the section and video container */
+section {
+    padding: 2rem;
+}
+
+.video-container {
+    text-align: center;
+}
+
+/* Styling for the slider */
+#slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+#sliderImage {
+    width: 600px;
+    height: 500px;
+    margin: 0 10px;
+    border-radius: 20px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+#sliderImage:hover {
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Add animation for slider images */
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #24f508;
+    color: rgba(118, 247, 12, 0.87);
+    text-align: center;
+    text-size-adjust: 10px;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 20px;
+    color: rgb(17, 12, 12);
+}
+

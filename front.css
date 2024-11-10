@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(185, 50, 226);
+    background-image: url(main.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-image: url(pk.jpg); */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 5em;
+    color: #051d69;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 800px;
+}
